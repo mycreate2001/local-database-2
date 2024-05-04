@@ -4,8 +4,8 @@
 # use
 ## samples
 ### sample1
-typescript
-```
+
+```typescript
 import {LocalDatabasev2} from 'localdatabasev2'
 const db=new LocalDatabasev2('file');
 //add user
