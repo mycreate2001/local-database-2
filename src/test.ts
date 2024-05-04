@@ -1,6 +1,6 @@
-import { LocalDatabase, handleFile } from "./localdatabasev2";
+import { LocalDatabasev2, handleFile } from "./localdatabasev2";
 
-const db=new LocalDatabase('file',{name:'test2'});
+const db=new LocalDatabasev2('file',{name:'test2'});
 interface User{
     id:string;
     name:string;
