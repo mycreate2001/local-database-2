@@ -1,13 +1,13 @@
 {
-  "name": "configfile",
-  "version": "1.0.0",
-  "description": "",
-  "main": ".dist/src/index.js",
-  "types": ".dist/src/index.d.ts",
+  "name": "LocalDatabasev2",
+  "version": "0.0.1",
+  "description": "local database file/localstoreage or any method follow backup/restore function",
+  "main": ".dist/index.js",
+  "types": ".dist/index.d.ts",
   "scripts": {
     "build":"tsc -p .",
-    "test":"npm run build&& node dist/test/index.test.js",
-    "start":"npm run build && node dist/src/index.js"
+    "test":"npm run build&& node dist/test.js",
+    "start":"npm run build && node dist/index.js"
   },
   "keywords": [],
   "author": "",
